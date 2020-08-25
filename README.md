@@ -1,5 +1,5 @@
 # Invoice-app
-This is a php application for generating docx files through an HTML form using a template document
+This is a php Symfony based application for generating docx files through an HTML form using a template document.
 
 # Project setup
 1. Use command prompt: composer install
