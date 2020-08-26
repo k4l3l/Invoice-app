@@ -23,7 +23,11 @@
                 $(document).ready(function() {
                     $('.fa-calendar-alt').click((ev) => {
                         ev.preventDefault();
-                    })
+                    });
+                    $('#clear').click((ev) => {
+                        ev.preventDefault();
+                        $('.form-control').val('');
+                    });
                     $('#datepicker').datepicker({ 
                         format: 'dd M yy',
                         weekStart: 1
